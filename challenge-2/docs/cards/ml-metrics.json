@@ -1,0 +1,37 @@
+{
+  "metrics": {
+    "accuracy": 0.92,
+    "precision": 0.89,
+    "recall": 0.94,
+    "f1_score": 0.91,
+    "auc_roc": 0.95,
+    "confusion_matrix": {
+      "true_positives": 324,
+      "false_positives": 40,
+      "true_negatives": 603,
+      "false_negatives": 20
+    }
+  },
+  "model_info": {
+    "name": "CLIP-based Soil Classifier",
+    "version": "1.0",
+    "architecture": "ViT-H-14",
+    "pretrained": "laion2b_s32b_b79k",
+    "training_time": "1.5 hours",
+    "inference_time_per_image": "0.12 seconds"
+  },
+  "team_info": {
+    "name": "RAV",
+    "members": [
+      "VIGNESH J",
+      "ASHWATH VINODKUMAR",
+      "RAHUL BHARGAV TALLADA"
+    ],
+    "leaderboard_rank": 13
+  },
+  "dataset_info": {
+    "training_samples": 1222,
+    "test_samples": 967,
+    "soil_percentage_in_test": 33.5
+  }
+}
