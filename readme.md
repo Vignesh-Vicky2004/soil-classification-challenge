@@ -7,7 +7,6 @@ This repository contains the code and documentation for the Soil Classification 
 ```
 Team Name: RAV
 Team Members: VIGNESH J, ASHWATH VINODKUMAR, RAHUL BHARGAV TALLADA
-Leaderboard Rank: 50
 ```
 
 ## Repository Structure
